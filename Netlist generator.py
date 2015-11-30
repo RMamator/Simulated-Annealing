@@ -9,6 +9,8 @@ elementnum = raw_input("Enter number of elements:")
 print "Number of elements are "+elementnum
 elements = int(elementnum)
 
+print "Wait for the message prompt."
+
 elements_in_row = []
 elements_to_enter = []
 
@@ -33,5 +35,6 @@ for rows in xrange(0, nets+1):
 	elements_to_enter = []
 
 netlist.close()
+print "Now, open the file."
 	
 		
