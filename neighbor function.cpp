@@ -71,6 +71,9 @@ int main(){
 		cout<<a[out]<<"\t";
 	}
 	
+	cout<<"\n";
+	cout<<*fora;
+	
 	//Retunr the array pointer.
 	//return a;
 }
